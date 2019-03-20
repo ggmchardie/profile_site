@@ -1,0 +1,123 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    color: #000000;
+    background-image: url("https://i.imgur.com/VOvUhHV.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90%;
+    font-style: normal;
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+img.profile {
+    display: block;
+    margin: 0px auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
+nav ul {
+    text-align: center;
+    padding: 5px 0x 5px 5px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about {
+    text-align: center;
+    padding: 10px;
+}
+
+.aboutclass {
+    text-align: center;
+    padding: 25px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.container {
+    position: relative;
+  }
+  
+.libimage {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*
+img.libimage {
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 10%;
+}*/
+
+#libraries {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.kids {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.containertwo {
+    position: relative;
+    padding-left: 200px;
+  }
+
+
+.siteinfoclass {
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+/*img.logo {
+    float: right;
+}
+*/
+
+/*img.mySlides {
+    width: 50%;
+    height: 50%
+}*/
