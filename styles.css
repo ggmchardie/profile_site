@@ -7,8 +7,20 @@
 
 }
 
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
 body {
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
     color: #000000;
     background-image: url("https://i.imgur.com/VOvUhHV.jpg");
@@ -34,6 +46,7 @@ h3 {
     justify-content: center;
     text-align: center; }
 
+/*NAV*/
 nav ul {
     text-align: center;
     padding: 5px 0x 5px 5px;
@@ -48,6 +61,7 @@ nav li {
     
 }
 
+/*ABOUT ME*/
 img.profile {
     position: relative;
     height: 250px;
@@ -82,6 +96,7 @@ img.profile {
 
 }
 
+/*LIBRARIES BOX*/
 .libimage {
     position: absolute;
     bottom: -44%;
@@ -106,26 +121,8 @@ img.profile {
     margin-left: 10%;
     padding: 5% 5% 5% 5%;
   }
-/*#libimagebox {
-    display: flex;
-}
 
-.containerone {
-    position: relative;
-    padding: 5% 5% 5% 5%;
-  }
-  
-.libimage {
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
-    background-color:#c5a1a1;
-    columns: #000000;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-*/
-
+/*THE FUTURE TEXT*/
 .libraries {
     text-align: center;
     display: flex;
@@ -137,6 +134,7 @@ img.profile {
     margin-left: 30px;
 }
 
+/*LIBU BOX*/
 .kids {
     position: absolute;
     bottom: 10%;
@@ -147,7 +145,7 @@ img.profile {
     padding-right: 3%;
 }
 
-.kidsimagebox {
+#kidsimagebox {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -162,6 +160,7 @@ img.profile {
     padding: 5% 5% 5% 5%;
   }
 
+/*THE SITE*/
 img.logo {
     height: 20%;
     width: 20%;
@@ -187,53 +186,62 @@ img.logo {
     margin-left: 30px;
 }
 
+/*GALLERY*/
+#gallery {
+    text-align: center;
+}
+
 * {
     box-sizing: border-box;
-  }
+}
   
-  .row {
+.row {
     margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
+}
+
+.row,
+.row > .column {
     padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
+}
+
+.column {
     float: left;
     width: 25%;
-  }
-  
-  /* Clear floats after rows */ 
-  .row:after {
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Content */
-  .content {
+}
+
+.content {
     background-color: white;
     padding: 10px;
   }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
+/*CONTACT DETAILS*/
+
+#contactheading {
+    text-align: center;
+}
+.contactclass {
+   text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+
+img.linkone {
+    width: 12%;
+    height: 10%;
+}
+
+#top {
+    text-align: center;
+}
+/*COPYRIGHT*/
 .footer {
     text-align: center;
 }
