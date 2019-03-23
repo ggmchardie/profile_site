@@ -22,24 +22,45 @@
 body {
     width: 1000px;
     margin: 0 auto;
-    color: #000000;
-    background-image: url("https://i.imgur.com/VOvUhHV.jpg");
-    background-repeat: repeat;
+    color: #f8f8f8;
+    /*
+    background: #3A1C71;
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71) fixed;
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
+    background-image: url("https://i.imgur.com/sjMvvnq.jpg?2");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     font-family: 'sofia_prolight';
 }
 
+#blackblock {
+    background-color: black;
+}
+.banner {
+    padding: 5% 2%;
+    margin-top: 37%;
+}
 h1 {
-    
-    font-size: 48px;
+    letter-spacing: 51px;
+    font-size: 60px;
     font-style: normal;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center; }
+    text-align: center; 
+    background-color: black;
+
+}
 
 h3 {
-    font-size: 24px;
+    padding-bottom: 40px;
+    letter-spacing:32px;
+    font-size: 19px;
     font-style: normal;
     display: flex;
     flex-direction: row;
@@ -47,21 +68,42 @@ h3 {
     text-align: center; }
 
 /*NAV*/
-nav ul {
-    text-align: center;
-    padding: 5px 0x 5px 5px;
-    color: #000000;
+
+.nav {
+    color: white;
+    margin: 3%;
+    padding: 1%;
 }
 
-nav li {
+.nav ul {
+    background-color: #000000;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    color: black;
+}
+
+.nav li {
     display: inline;
     margin-right: 40px;
-    padding: 10px;
-    color: #000000;
+    padding: 5px;
+    color: black;
     
 }
 
+.nav li a {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
 /*ABOUT ME*/
+
+.aboutme {
+    padding-top: 14%;
+    margin: 9% 2% 3% 9%;
+    padding-bottom: 30%;
+}
 img.profile {
     position: relative;
     height: 250px;
@@ -76,16 +118,19 @@ img.profile {
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: flex-start;
+    text-align: justify;
 }
 
 .about h2 {
     text-align: center;
     padding-right: 150px;
+    letter-spacing: 23px;;
+    font-size: 35px;
 }
 
 .about {
     text-align: center;
-    padding: 5% 5% 5% 5%;
+    padding-bottom: 5%;
     margin-left: 14%;
 }
 
@@ -93,18 +138,44 @@ img.profile {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    padding: 5%;
 
 }
 
+.links{
+    display: inline block;
+}
+
+img .linkone .linktwo {
+    height: 25%;
+    width: 25%;
+}
+
+.linkone {
+    padding: 4%;
+}
+
+.linktwo {
+    padding: 5%;
+}
+
 /*LIBRARIES BOX*/
+.libsig {
+    padding: 0%;
+    margin : 0%
+}
 .libimage {
     position: absolute;
-    bottom: -44%;
+    bottom: -56%;
     right: 1%;
     background-color: #c5a1a1;
     columns: #000000;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2%;
+}
+
+.libimage h4 {
+    letter-spacing: 7px;
+    font-size: 16px;
 }
 
 #libimagebox {
@@ -116,10 +187,9 @@ img.profile {
 
 .containerone {
     position: relative;
-    height: 100%;
+    height: auto;
     width: 100%;
-    margin-left: 10%;
-    padding: 5% 5% 5% 5%;
+    padding-left: 8%;
   }
 
 /*THE FUTURE TEXT*/
@@ -130,15 +200,21 @@ img.profile {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-right: 20px;
-    margin-left: 30px;
+    margin: 45% 2% 35% 9%;
+}
+
+.libraries h2 {
+    text-align: center;
+    letter-spacing: 23px;;
+    font-size: 35px;
+
 }
 
 /*LIBU BOX*/
 .kids {
     position: absolute;
-    bottom: 10%;
-    right: 1%;
+    bottom: -1%;
+    right: -4%;
     background-color: #c5a1a1;
     columns: #000000;
     padding-left: 3%;
@@ -161,11 +237,17 @@ img.profile {
   }
 
 /*THE SITE*/
+.siteinfo {
+    padding: 35% 4% 28% 4%;
+}
+
 img.logo {
-    height: 20%;
-    width: 20%;
-    margin: 50px 250px 10px 10px;
-    padding-top: 10px;
+    display: block;
+    margin-left: 31%;
+    margin-right: auto;
+    width: 34%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .logo {
@@ -180,7 +262,7 @@ img.logo {
     text-align: center;
 }
 
-.siteinfo {
+.siteinfotext {
     text-align: center;
     margin-right: 20px;
     margin-left: 30px;
@@ -224,19 +306,65 @@ img.logo {
 
 #contactheading {
     text-align: center;
-}
-.contactclass {
-   text-align: center;
-}
-
-.links {
-    text-align: center;
+    margin-top: 40%;
+    margin-bottom: 10%;
+    letter-spacing: 23px;
+    font-size: 19px;
 }
 
-img.linkone {
-    width: 12%;
-    height: 10%;
+.contact {
+    color: #000000;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+  }
 
 #top {
     text-align: center;

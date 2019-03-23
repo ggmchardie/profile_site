@@ -4,7 +4,7 @@ An online portfolio for me to display my current and futre career objectives and
 
 [GitHub](https://github.com/ggmchardie/profile_site)
 
-[Site link](http://github.com)
+[Site link](https://ggmchardie.github.io/profile_site/)
 
 ##Features
 
