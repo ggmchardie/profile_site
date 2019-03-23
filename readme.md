@@ -12,36 +12,53 @@ An online portfolio for me to display my current and futre career objectives and
 
 !--REMEMBER TO INSERT SCREENSHOTS AT END--!
 
+**Welcome screen**
+My welcome page displays my name and occupation.
+
+![welcome page](https://i.imgur.com/NQ8kIkS.png)
+
 **Navigation**  
 My nav bar contains links to the appropriate sections on the page
 
-!--SCREENSHOT--!
+![nav bar](https://i.imgur.com/XxBkPOa.png)
 
 **About me**  
-A introduction about myself, my work/study background and my future career goals.
+A introduction about myself, my work/study background and my future career goals. Links to my CV, Github and Linkedin accounts.
 
-!--SCREENSHOT--!
+
+![about me](https://i.imgur.com/wcDevGB.png)
 
 **Libraries & their significance**  
 **The Future**  
 Info about the importance of libraries and how digital media has affected them.
 
-!--SCREENSHOT--!
+![libraries & signifcance](https://i.imgur.com/FuCjCkI.png)
+
+![The future](https://i.imgur.com/PsJLrzw.png)
 
 **LibU**  
 Information about the startup. Includes our mission, goals and information on the proposed site. 
 
-!--SCREENSHOT--!
+![LibU](https://i.imgur.com/zXdUHrU.png)
+
+![LibU](https://i.imgur.com/BWr7S78.png)
 
 **Gallery**  
 Pictures of intial wireframes and sitemap. Direct link for image will open in new tab. 
 
-!--SCREENSHOT--!
+![gallery](https://i.imgur.com/v80cgJ7.png)
 
 **Contact**  
-Includes my email, phone number and links to my Github and Linkedin accounts.
+Includes my email, phone number and and contact form.
 
-!--SCREENSHOT--!
+![contact](https://i.imgur.com/XOVAOkF.png)
+
+**Footer**
+
+* Link to top of page
+* Copyright
+
+![footer](https://i.imgur.com/uIvSfBV.png?1)
 
 
 ###Target audience
@@ -49,6 +66,9 @@ Includes my email, phone number and links to my Github and Linkedin accounts.
 * Potential investors or employers
 * Other developers 
 * Future users of LibU
+
+**User Stories**
+![user stories](https://i.imgur.com/VX2Q0h9.png)
 
 ### Tech Stack
 
@@ -82,6 +102,9 @@ Includes my email, phone number and links to my Github and Linkedin accounts.
 * I broke down each large component (e.g. HTML, CSS, readme), into small sections to help me keep a good idea of what my timeline should be. 
 ![trello] (https://i.imgur.com/iRTq9p6.png)
 
+* Everything done!
+![done] (https://i.imgur.com/Gzn3Xqy.png)
+
 
 ###Wireframes
 ![wireframe_one](https://i.imgur.com/yYPOHvH.jpg?1)
@@ -90,23 +113,38 @@ Includes my email, phone number and links to my Github and Linkedin accounts.
 
 ![wireframe_three](https://i.imgur.com/YELeH0C.jpg?1)
 
-!--Insert Updated Wireframe--!
 
 ###Design progression
 
-!--Insert videos--!!
+[Click this link to see videos of how my site progressed](https://photos.app.goo.gl/iZKx8gZ4pYdx6MuJ8)
 
 ###Usability considerations
 
 My page is responsive. Width and margin of the body was set appropriately to allow this. When needed elements were given extra styling. 
 
-![usability_reponsive](https://i.imgur.com/QbQfIkP.png?1)
+![meta](https://i.imgur.com/BdIPy1G.png)
+Viewport set appropriately
 
-![usability_code](https://i.imgur.com/CQ4WNfh.png?1)
+![body](https://i.imgur.com/G7sO539.png)
+Body properties selected to be responsive
+
+![media](https://i.imgur.com/DMFVdJD.png)
+For use across multiple devices
+
+![usability_reponsive](https://i.imgur.com/7wyrgKa.png)
+
+![usability_reponsive](https://i.imgur.com/ldA7pVV.png)
+
+![usability_reponsive](https://i.imgur.com/Z4GhLNK.png)
+
+![usability_reponsive](https://i.imgur.com/fW8ICDg.png)
+
+![usability_reponsive](https://i.imgur.com/3EFNkeI.png)
+
 
 I broke down what was originally a large document into much smaller sections and rewrote it to make it more consice and attractive to the user. I used images where I could to represent content (e.g. my gallery section)
 
-![usability_gallery](https://i.imgur.com/QlntvTf.png?1)
+![usability_gallery](https://i.imgur.com/v80cgJ7.png)
 
 
 

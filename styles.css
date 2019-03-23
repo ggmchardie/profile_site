@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 900px) {
     .column {
-      width: 50%;
+      width: 100%;
     }
   }
   
@@ -26,21 +26,13 @@
     only screen and (-o-min-device-pixel-ratio: 2/1),
     only screen and (min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi),
-    only screen and (min-resolution: 2dppx) { 
-    /* styles for Retina-type displays */
+    only screen and (min-resolution: 2dppx) {
 }
 
 body {
     width: 1000px;
     margin: 0 auto;
     color: #f8f8f8;
-    /*
-    background: #3A1C71;
-    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71) fixed;
-    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71) fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    */
     background-image: url("https://i.imgur.com/sjMvvnq.jpg?3");
     background-color: #000000;
     background-repeat: no-repeat;
@@ -51,18 +43,19 @@ body {
 
 .banner {
     padding: 5% 2%;
-    margin-top: 42%;
+    margin-top: 44%;
 }
 
 h1 {
-    letter-spacing: 51px;
-    font-size: 60px;
+    letter-spacing: 66px;
+    font-size: 54px;
     font-style: normal;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center; 
     background-color: black;
+    margin: 1%;
 }
 
 h3 {
@@ -165,16 +158,24 @@ img.profile {
     display: inline block;
 }
 
-img .linkone .linktwo {
+.linkone {
+    margin: 5%;
+    padding-left:5%;
+}
+.linkone a {
+    color: #f2f2f2;
+}
+
+img .linktwo .linkthree {
     height: 25%;
     width: 25%;
 }
 
-.linkone {
+.linktwo {
     padding: 4%;
 }
 
-.linktwo {
+.linkthree {
     padding: 5%;
 }
 
@@ -402,8 +403,14 @@ img.logo {
   }
 
 /*BACK TO TOP LINK*/
-#top {
+.top {
     text-align: center;
+    text-align-last: center;
+    
+}
+
+.top a {
+    color: #ffffff;
 }
 /*COPYRIGHT*/
 .footer {
