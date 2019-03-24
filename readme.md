@@ -10,8 +10,6 @@ An online portfolio for me to display my current and futre career objectives and
 
 ![logo](https://i.imgur.com/bvbjAGj.png?1)
 
-!--REMEMBER TO INSERT SCREENSHOTS AT END--!
-
 **Welcome screen**
 My welcome page displays my name and occupation.
 
@@ -145,6 +143,32 @@ For use across multiple devices
 I broke down what was originally a large document into much smaller sections and rewrote it to make it more consice and attractive to the user. I used images where I could to represent content (e.g. my gallery section)
 
 ![usability_gallery](https://i.imgur.com/v80cgJ7.png)
+
+###Q & A
+
+***
+
+Describe key events in the development of the internet from the 1980s to today (150 words)
+
+Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (150 words)
+
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (150 words)
+
+--Word total (450 words)
+
+***
+
+While the beginning of Aparnet’s evolution pre dates the 1980’s, in many ways it’s developers truly were the pioneers of the Internet. The first network to run on packet switch technology – the founding idea behind ‘the router’. Apartnert’s design allowed one communication link share with mulitple pairs of receivers. Paving the way for the development of Transmmission Control Protocol and Internet Protocol (TCP/IP)
+
+In 1983 Aparnet become the first network to use TCP/IP. The TCP/IP - designed around the end-to-end-principle, introdcued the idea of layering internet protocols to increase speed and access. Data is broken down into smaller parts (packets) as it passes through each protocol. This made it possible for one computer conntect to multiple communication lines at one time, taking out the issue of and network/host locality. This network design allowed for the development of ‘gateways’ which are similar to the routers we now use.   
+
+The emergence of routers (packet switches) revolutionised the way in which information could be shared and as networks increased, the network heireachy we see today - including Local Service Providers (LSP’s) and Network Service Providers (NSP’s)- slowly developed. This massive network of NAP’s (Network Access Points) and MAE’s (Metropolitan Area Exchanges) to NSP’s and NSP’s to LSP’s is has come so far from the first connection made through the Aprtnet Network from Stanford to UCLA in 1969.
+
+With this growing network, there needed to be a way to store Internet Protocol (IP) addresses while allowing the router to easily locate and use them. The introduction of the Domain Name System (DNS) in 1984, sometimes referred to as ‘the phone book for the internet’ accomplished this. Taking a domain name and connecting the user through the corresponsing IP adress stored ina DNS server. This was a step towards making the the internet more human friendly. But, it was not until 1991, with the development of the code for the World Wide Web completed and the publishing of the first webpage did the internet start to look like the modern physical representation we now use. 
+
+In 1993, HTML was drafted and within a year was being increasingly used as the standard to structuring web content (paving the way for CSS and  JavaScipt). Around this time, Mosaic – the world’s first ever graphic web browser emerged increasing user access to the web. In the coming years; the development of Hypertext Preprocessor(PHP) now allowed servers to collect client information.
+
+These tools and systems that the internet was built upon (routers, domain names, encryption softwares, LSP’s) have all been based and built upon the idea of free connection and communication, by a network of people dedicated to building and improving this world wide network we now call the internet. 
 
 
 
