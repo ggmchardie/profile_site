@@ -6,7 +6,7 @@ An online portfolio for me to display my current and futre career objectives and
 
 [Site link](https://ggmchardie.github.io/profile_site/)
 
-##Features
+#Features
 
 ![logo](https://i.imgur.com/bvbjAGj.png?1)
 
@@ -59,7 +59,7 @@ Includes my email, phone number and and contact form.
 ![footer](https://i.imgur.com/uIvSfBV.png?1)
 
 
-###Target audience
+##Target audience
 
 * Potential investors or employers
 * Other developers 
@@ -68,13 +68,13 @@ Includes my email, phone number and and contact form.
 **User Stories**
 ![user stories](https://i.imgur.com/VX2Q0h9.png)
 
-### Tech Stack
+## Tech Stack
 
 * HTML
 
 * CSS
 
-##Design
+## Design
 * I began my design process my drawing basic wireframing and breaking down my content into smaller sections so it could be displayed appropraitely
 
 * I labeled my wireframe with HTML elemens that I thought I might use so I could clearly see where things needed to be.
@@ -83,10 +83,10 @@ Includes my email, phone number and and contact form.
 
 * Naturally, as I began stlying, my design changed into something somehwat different than my original wireframing but continually updatig my trello as new tasks came up helped mestay on track with my project timeline.
 
-###Project Timeline
+## Project Timeline
 ![project timeline](https://i.imgur.com/pGnkmjB.jpg?1)
 
-###Trello boards
+## Trello boards
 
 * I started with my HTML
 ![trello] (https://i.imgur.com/4oFYhmf.png)
@@ -112,11 +112,11 @@ Includes my email, phone number and and contact form.
 ![wireframe_three](https://i.imgur.com/YELeH0C.jpg?1)
 
 
-###Design progression
+## Design progression
 
 [Click this link to see videos of how my site progressed](https://photos.app.goo.gl/iZKx8gZ4pYdx6MuJ8)
 
-###Usability considerations
+## Usability considerations
 
 My page is responsive. Width and margin of the body was set appropriately to allow this. When needed elements were given extra styling. 
 
@@ -144,7 +144,7 @@ I broke down what was originally a large document into much smaller sections and
 
 ![usability_gallery](https://i.imgur.com/v80cgJ7.png)
 
-###Q & A
+## Q & A
 
 ***
 
