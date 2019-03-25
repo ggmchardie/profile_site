@@ -7,15 +7,23 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .column {
       width: 100%;
     }
-  }
+    
+    body {
+        width: 100%
+    }
+    
+}
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 479px) {
     .column {
       width: 100%;
+    }
+    body {
+        width: 100%
     }
   }
 
@@ -33,12 +41,19 @@ body {
     width: 1000px;
     margin: 0 auto;
     color: #f8f8f8;
-    background-image: url("https://i.imgur.com/sjMvvnq.jpg?3");
+    background-image: url("https://i.imgur.com/c1P1Xh8.jpg");
     background-color: #000000;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-attachment: fixed;
     font-family: 'sofia_prolight';
+    text-align: center;
+    display: block;
+
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .banner {
@@ -101,6 +116,10 @@ h3 {
 
 #blackblock {
     background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
 }
 
 /*ABOUT ME*/
@@ -257,9 +276,9 @@ img .linktwo .linkthree {
 .libutext {
     position: absolute;
     bottom: -16%;
-    left: 47%;
-    right: -6%;
-    top: 83%;
+    left: 29%;
+    right: 7%;
+    top: 86%;
     background-color: #c5a1a1;
     columns: #000000;
     padding: 2%;
@@ -301,10 +320,6 @@ img.logo {
 }
 
 /*GALLERY*/
-
-* {
-    box-sizing: border-box;
-}
 
 #gallery {
     text-align: center;
