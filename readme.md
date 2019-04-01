@@ -1,6 +1,6 @@
 #Georgia McHardie - Portfolio Site
 
-An online portfolio for me to display my current and futre career objectives and projects.
+An online portfolio for me to display my current and future career objectives and projects.
 
 [GitHub](https://github.com/ggmchardie/profile_site)
 
