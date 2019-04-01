@@ -1,4 +1,4 @@
-#Georgia McHardie - Portfolio Site
+# Georgia McHardie - Portfolio Site
 
 An online portfolio for me to display my current and future career objectives and projects.
 
@@ -6,7 +6,7 @@ An online portfolio for me to display my current and future career objectives an
 
 [Site link](https://ggmchardie.github.io/profile_site/)
 
-#Features
+## Features
 
 ![logo](https://i.imgur.com/bvbjAGj.png?1)
 
@@ -27,8 +27,9 @@ A introduction about myself, my work/study background and my future career goals
 ![about me](https://i.imgur.com/wcDevGB.png)
 
 **Libraries & their significance**  
+
 **The Future**  
-Info about the importance of libraries and how digital media has affected them.
+Info about the importance of libraries and the effects digital media has had on them. 
 
 ![libraries & signifcance](https://i.imgur.com/FuCjCkI.png)
 
@@ -59,10 +60,12 @@ Includes my email, phone number and and contact form.
 ![footer](https://i.imgur.com/uIvSfBV.png?1)
 
 
-##Target audience
+## Target audience
 
 * Potential investors or employers
+
 * Other developers 
+
 * Future users of LibU
 
 **User Stories**
@@ -77,36 +80,40 @@ Includes my email, phone number and and contact form.
 * CSS
 
 ## Design
-* I began my design process my drawing basic wireframing and breaking down my content into smaller sections so it could be displayed appropraitely
 
-* I labeled my wireframe with HTML elemens that I thought I might use so I could clearly see where things needed to be.
+* I began my design process by drawing basic wireframing and breaking down my content into smaller sections so it could be displayed appropriately.
 
-* I focused on getting my HTML and content up and then spent time styling with CSS.
+* I labeled my wireframe with HTML elements that I thought I might use. This allowed me to clearly see where things needed to be.
 
-* Naturally, as I began stlying, my design changed into something somehwat different than my original wireframing but continually updatig my trello as new tasks came up helped mestay on track with my project timeline.
+* I focused on getting my HTML and content up before I focused on styling with CSS.
+
+* Naturally, as I began styling, my design changed into something very different than my original wireframing. To accomodate the time these changes would take I continually updated my trello as new tasks developed.
+
 
 ## Project Timeline
+
 ![project timeline](https://i.imgur.com/pGnkmjB.jpg?1)
 
 ## Trello boards
 
 * I started with my HTML
-![trello] (https://i.imgur.com/4oFYhmf.png)
+
+![trello](https://i.imgur.com/4oFYhmf.png)
 
 * As my project grew, I created more boards and began adding CSS elements
-![trello] (https://i.imgur.com/4njJDLl.png)
+![trello](https://i.imgur.com/4njJDLl.png)
 
-* As I encountered issues that I knew would take a large period of time to correct, I would add them as an item on my board. 
-![trello] (https://i.imgur.com/72Sz49X.png)
+* As I encountered issues that I knew would take a large period of time to correct, I would add them to my 'To Do' board. 
+![trello](https://i.imgur.com/72Sz49X.png)
 
 * I broke down each large component (e.g. HTML, CSS, readme), into small sections to help me keep a good idea of what my timeline should be. 
-![trello] (https://i.imgur.com/iRTq9p6.png)
+![trello](https://i.imgur.com/iRTq9p6.png)
 
 * Everything done!
-![done] (https://i.imgur.com/Gzn3Xqy.png)
+![done](https://i.imgur.com/Gzn3Xqy.png)
 
 
-###Wireframes
+### Wireframes
 ![wireframe_one](https://i.imgur.com/yYPOHvH.jpg?1)
 
 ![wireframe_two](https://i.imgur.com/zklyMUX.jpg?1)
@@ -120,26 +127,7 @@ Includes my email, phone number and and contact form.
 
 ## Usability considerations
 
-My page is responsive. Width and margin of the body was set appropriately to allow this. When needed elements were given extra styling. 
-
-![meta](https://i.imgur.com/BdIPy1G.png)
-Viewport set appropriately
-
-![body](https://i.imgur.com/G7sO539.png)
-Body properties selected to be responsive
-
-![media](https://i.imgur.com/DMFVdJD.png)
-For use across multiple devices
-
-![usability_reponsive](https://i.imgur.com/7wyrgKa.png)
-
-![usability_reponsive](https://i.imgur.com/ldA7pVV.png)
-
-![usability_reponsive](https://i.imgur.com/Z4GhLNK.png)
-
-![usability_reponsive](https://i.imgur.com/fW8ICDg.png)
-
-![usability_reponsive](https://i.imgur.com/3EFNkeI.png)
+**CURRENTLY HAVING ISSUES BEING RESPONSIVE TO MOBILE DEVICES**
 
 
 I broke down what was originally a large document into much smaller sections and rewrote it to make it more consice and attractive to the user. I used images where I could to represent content (e.g. my gallery section)
@@ -160,13 +148,13 @@ Reflect on one aspect of the development of internet technologies and how it has
 
 ***
 
-While the beginning of Aparnet’s evolution pre dates the 1980’s, in many ways it’s developers truly were the pioneers of the Internet. The first network to run on packet switch technology – the founding idea behind ‘the router’. Apartnert’s design allowed one communication link share with mulitple pairs of receivers. Paving the way for the development of Transmmission Control Protocol and Internet Protocol (TCP/IP)
+While the beginning of Aparnet’s evolution pre dates the 1980’s, in many ways it’s developers truly were the pioneers of the Internet. The first network to run on packet switch technology – the founding idea behind ‘the router’, Apartnert’s design allowed one communication link share with mulitple pairs of receivers. Paving the way for the development of Transmmission Control Protocol and Internet Protocol (TCP/IP)
 
 In 1983 Aparnet become the first network to use TCP/IP. The TCP/IP - designed around the end-to-end-principle, introdcued the idea of layering internet protocols to increase speed and access. Data is broken down into smaller parts (packets) as it passes through each protocol. This made it possible for one computer conntect to multiple communication lines at one time, taking out the issue of and network/host locality. This network design allowed for the development of ‘gateways’ which are similar to the routers we now use.   
 
-The emergence of routers (packet switches) revolutionised the way in which information could be shared and as networks increased, the network heireachy we see today - including Local Service Providers (LSP’s) and Network Service Providers (NSP’s)- slowly developed. This massive network of NAP’s (Network Access Points) and MAE’s (Metropolitan Area Exchanges) to NSP’s and NSP’s to LSP’s is has come so far from the first connection made through the Aprtnet Network from Stanford to UCLA in 1969.
+The emergence of routers (packet switches) revolutionised the way in which information could be shared and as networks increased, the network heireachy we see today - including Local Service Providers (LSP’s) and Network Service Providers (NSP’s)- slowly developed. This massive network of NAP’s (Network Access Points) and MAE’s (Metropolitan Area Exchanges) to NSP’s and NSP’s to LSP’s has come so far from the first connection made through the Aprtnet Network from Stanford to UCLA in 1969.
 
-With this growing network, there needed to be a way to store Internet Protocol (IP) addresses while allowing the router to easily locate and use them. The introduction of the Domain Name System (DNS) in 1984, sometimes referred to as ‘the phone book for the internet’ accomplished this. Taking a domain name and connecting the user through the corresponsing IP adress stored ina DNS server. This was a step towards making the the internet more human friendly. But, it was not until 1991, with the development of the code for the World Wide Web completed and the publishing of the first webpage did the internet start to look like the modern physical representation we now use. 
+With this growing network, there needed to be a way to store Internet Protocol (IP) addresses while allowing the router to easily locate and use them. The introduction of the Domain Name System (DNS) in 1984, sometimes referred to as ‘the phone book for the internet’ accomplished this. Taking a domain name and connecting the user through the corresponsing IP adress stored in a DNS server. This was a step towards making the the internet more human friendly. But, it was not until 1991, with the development of the code for the World Wide Web completed and the publishing of the first webpage did the internet start to look like the modern physical representation we now use. 
 
 In 1993, HTML was drafted and within a year was being increasingly used as the standard to structuring web content (paving the way for CSS and  JavaScipt). Around this time, Mosaic – the world’s first ever graphic web browser emerged increasing user access to the web. In the coming years; the development of Hypertext Preprocessor(PHP) now allowed servers to collect client information.
 
