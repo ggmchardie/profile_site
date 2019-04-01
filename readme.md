@@ -6,6 +6,9 @@ An online portfolio for me to display my current and future career objectives an
 
 [Site link](https://ggmchardie.github.io/profile_site/)
 
+
+**CURRENTLY HAVING ISSUES BEING RESPONSIVE TO MOBILE DEVICES**
+
 ## Features
 
 ![logo](https://i.imgur.com/bvbjAGj.png?1)
