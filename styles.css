@@ -23,21 +23,24 @@ body {
 
 }
 
-h1 {
+body h1 {
     letter-spacing: 66px;
     font-size: 54px;
     font-style: normal;
-    background-color: black;
     text-align: center;
+    padding: 5%;
+    
 
 }
 
-h3 {
+
+body h3 {
 
     letter-spacing:43px;
     font-size: 18px;
     font-style: normal;
     text-align: center;
+    padding: 5%;
 }
 
 /*NAV*/
@@ -120,33 +123,13 @@ img .linktwo .linkthree {
 
 /*CONTACT DETAILS*/
 
-.contact {
-    color: #000000;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.contact h2 {
-    text-align: center;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    letter-spacing: 23px;
-    font-size: 19px;
-}
 
 div.column.is-half {
-    background-color: #665f5f;
+    background-color: #14676d;
     color: #000000;
     border-radius: 10%;
-    margin: 30%;
     padding: 6%;
-    margin: 28%;
+    margin: 33%;
   }
 
 
